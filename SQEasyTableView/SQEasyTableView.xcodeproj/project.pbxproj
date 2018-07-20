@@ -12,16 +12,16 @@
 		2C47DA0C2101920B00B98CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C47DA0A2101920B00B98CB3 /* LaunchScreen.storyboard */; };
 		2C47DA0F2101920B00B98CB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA0E2101920B00B98CB3 /* main.m */; };
 		2C47DA3E2101923E00B98CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C47DA3D2101923E00B98CB3 /* Main.storyboard */; };
-		2C47DA602101940A00B98CB3 /* SQBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA422101940900B98CB3 /* SQBaseTableViewController.m */; };
-		2C47DA612101940A00B98CB3 /* SQBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA432101940900B98CB3 /* SQBaseCollectionViewController.m */; };
-		2C47DA622101940A00B98CB3 /* SQBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA452101940900B98CB3 /* SQBaseCell.m */; };
-		2C47DA632101940A00B98CB3 /* SQViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA482101940900B98CB3 /* SQViewModel.m */; };
-		2C47DA642101940A00B98CB3 /* UIResponder+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA4B2101940900B98CB3 /* UIResponder+Extension.m */; };
-		2C47DA652101940A00B98CB3 /* SQItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA4E2101940900B98CB3 /* SQItemCell.m */; };
-		2C47DA662101940A00B98CB3 /* SQHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA502101940900B98CB3 /* SQHeaderCell.m */; };
-		2C47DA672101940A00B98CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA522101940900B98CB3 /* ViewController.m */; };
-		2C47DA682101940A00B98CB3 /* SQItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA552101940900B98CB3 /* SQItemModel.m */; };
-		2C47DA692101940A00B98CB3 /* SQHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA562101940900B98CB3 /* SQHeaderModel.m */; };
+		2C47DA992101969000B98CB3 /* SQViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA732101968F00B98CB3 /* SQViewModel.m */; };
+		2C47DA9A2101969000B98CB3 /* UIResponder+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA762101968F00B98CB3 /* UIResponder+Extension.m */; };
+		2C47DA9B2101969000B98CB3 /* SQItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA792101968F00B98CB3 /* SQItemCell.m */; };
+		2C47DA9C2101969000B98CB3 /* SQHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA7B2101968F00B98CB3 /* SQHeaderCell.m */; };
+		2C47DA9D2101969000B98CB3 /* SQBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA7F2101968F00B98CB3 /* SQBaseTableViewController.m */; };
+		2C47DA9E2101969000B98CB3 /* SQBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA802101968F00B98CB3 /* SQBaseCollectionViewController.m */; };
+		2C47DA9F2101969000B98CB3 /* SQBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA822101968F00B98CB3 /* SQBaseCell.m */; };
+		2C47DAA02101969000B98CB3 /* SQItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA842101968F00B98CB3 /* SQItemModel.m */; };
+		2C47DAA12101969000B98CB3 /* SQHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA852101968F00B98CB3 /* SQHeaderModel.m */; };
+		2C47DAA22101969000B98CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA902101969000B98CB3 /* ViewController.m */; };
 		31F772E12F936DFB56B7C19C /* libPods-SQEasyTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BACD1FD127188C5C673A8AE4 /* libPods-SQEasyTableView.a */; };
 /* End PBXBuildFile section */
 
@@ -35,32 +35,32 @@
 		2C47DA0D2101920B00B98CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C47DA0E2101920B00B98CB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C47DA3D2101923E00B98CB3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		2C47DA402101940900B98CB3 /* SQBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseCollectionViewController.h; sourceTree = "<group>"; };
-		2C47DA412101940900B98CB3 /* SQBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseCell.h; sourceTree = "<group>"; };
-		2C47DA422101940900B98CB3 /* SQBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseTableViewController.m; sourceTree = "<group>"; };
-		2C47DA432101940900B98CB3 /* SQBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseCollectionViewController.m; sourceTree = "<group>"; };
-		2C47DA442101940900B98CB3 /* SQBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseTableViewController.h; sourceTree = "<group>"; };
-		2C47DA452101940900B98CB3 /* SQBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseCell.m; sourceTree = "<group>"; };
-		2C47DA472101940900B98CB3 /* SQViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQViewModel.h; sourceTree = "<group>"; };
-		2C47DA482101940900B98CB3 /* SQViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQViewModel.m; sourceTree = "<group>"; };
-		2C47DA4A2101940900B98CB3 /* UIResponder+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Extension.h"; sourceTree = "<group>"; };
-		2C47DA4B2101940900B98CB3 /* UIResponder+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Extension.m"; sourceTree = "<group>"; };
-		2C47DA4D2101940900B98CB3 /* SQHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHeaderCell.h; sourceTree = "<group>"; };
-		2C47DA4E2101940900B98CB3 /* SQItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQItemCell.m; sourceTree = "<group>"; };
-		2C47DA4F2101940900B98CB3 /* SQItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQItemCell.h; sourceTree = "<group>"; };
-		2C47DA502101940900B98CB3 /* SQHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHeaderCell.m; sourceTree = "<group>"; };
-		2C47DA522101940900B98CB3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2C47DA532101940900B98CB3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C47DA552101940900B98CB3 /* SQItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQItemModel.m; sourceTree = "<group>"; };
-		2C47DA562101940900B98CB3 /* SQHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHeaderModel.m; sourceTree = "<group>"; };
-		2C47DA572101940900B98CB3 /* SQHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHeaderModel.h; sourceTree = "<group>"; };
-		2C47DA582101940900B98CB3 /* SQItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQItemModel.h; sourceTree = "<group>"; };
-		2C47DA5A2101940A00B98CB3 /* SQModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQModelProtocol.h; sourceTree = "<group>"; };
-		2C47DA5B2101940A00B98CB3 /* SQRefreshProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRefreshProtocol.h; sourceTree = "<group>"; };
-		2C47DA5C2101940A00B98CB3 /* SQViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQViewProtocol.h; sourceTree = "<group>"; };
-		2C47DA5D2101940A00B98CB3 /* SQLoadMoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLoadMoreProtocol.h; sourceTree = "<group>"; };
-		2C47DA5E2101940A00B98CB3 /* SQEventProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQEventProtocol.h; sourceTree = "<group>"; };
-		2C47DA5F2101940A00B98CB3 /* SQViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQViewModelProtocol.h; sourceTree = "<group>"; };
+		2C47DA722101968F00B98CB3 /* SQViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQViewModel.h; sourceTree = "<group>"; };
+		2C47DA732101968F00B98CB3 /* SQViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQViewModel.m; sourceTree = "<group>"; };
+		2C47DA752101968F00B98CB3 /* UIResponder+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Extension.h"; sourceTree = "<group>"; };
+		2C47DA762101968F00B98CB3 /* UIResponder+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Extension.m"; sourceTree = "<group>"; };
+		2C47DA782101968F00B98CB3 /* SQHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHeaderCell.h; sourceTree = "<group>"; };
+		2C47DA792101968F00B98CB3 /* SQItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQItemCell.m; sourceTree = "<group>"; };
+		2C47DA7A2101968F00B98CB3 /* SQItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQItemCell.h; sourceTree = "<group>"; };
+		2C47DA7B2101968F00B98CB3 /* SQHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHeaderCell.m; sourceTree = "<group>"; };
+		2C47DA7D2101968F00B98CB3 /* SQBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseCollectionViewController.h; sourceTree = "<group>"; };
+		2C47DA7E2101968F00B98CB3 /* SQBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseCell.h; sourceTree = "<group>"; };
+		2C47DA7F2101968F00B98CB3 /* SQBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseTableViewController.m; sourceTree = "<group>"; };
+		2C47DA802101968F00B98CB3 /* SQBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseCollectionViewController.m; sourceTree = "<group>"; };
+		2C47DA812101968F00B98CB3 /* SQBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseTableViewController.h; sourceTree = "<group>"; };
+		2C47DA822101968F00B98CB3 /* SQBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseCell.m; sourceTree = "<group>"; };
+		2C47DA842101968F00B98CB3 /* SQItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQItemModel.m; sourceTree = "<group>"; };
+		2C47DA852101968F00B98CB3 /* SQHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHeaderModel.m; sourceTree = "<group>"; };
+		2C47DA862101968F00B98CB3 /* SQHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHeaderModel.h; sourceTree = "<group>"; };
+		2C47DA872101968F00B98CB3 /* SQItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQItemModel.h; sourceTree = "<group>"; };
+		2C47DA892101969000B98CB3 /* SQModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQModelProtocol.h; sourceTree = "<group>"; };
+		2C47DA8A2101969000B98CB3 /* SQRefreshProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRefreshProtocol.h; sourceTree = "<group>"; };
+		2C47DA8B2101969000B98CB3 /* SQViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQViewProtocol.h; sourceTree = "<group>"; };
+		2C47DA8C2101969000B98CB3 /* SQLoadMoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLoadMoreProtocol.h; sourceTree = "<group>"; };
+		2C47DA8D2101969000B98CB3 /* SQEventProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQEventProtocol.h; sourceTree = "<group>"; };
+		2C47DA8E2101969000B98CB3 /* SQViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQViewModelProtocol.h; sourceTree = "<group>"; };
+		2C47DA902101969000B98CB3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C47DA982101969000B98CB3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		400426739CE46CED53900F39 /* Pods-SQEasyTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQEasyTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQEasyTableView/Pods-SQEasyTableView.release.xcconfig"; sourceTree = "<group>"; };
 		BACD1FD127188C5C673A8AE4 /* libPods-SQEasyTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQEasyTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -98,13 +98,13 @@
 		2C47D9FE2101920A00B98CB3 /* SQEasyTableView */ = {
 			isa = PBXGroup;
 			children = (
-				2C47DA3F2101940900B98CB3 /* Base */,
-				2C47DA492101940900B98CB3 /* Category */,
-				2C47DA512101940900B98CB3 /* Controller */,
-				2C47DA542101940900B98CB3 /* Model */,
-				2C47DA592101940A00B98CB3 /* Protocol */,
-				2C47DA4C2101940900B98CB3 /* View */,
-				2C47DA462101940900B98CB3 /* ViewModel */,
+				2C47DA7C2101968F00B98CB3 /* Base */,
+				2C47DA742101968F00B98CB3 /* Category */,
+				2C47DA8F2101969000B98CB3 /* Controller */,
+				2C47DA832101968F00B98CB3 /* Model */,
+				2C47DA882101969000B98CB3 /* Protocol */,
+				2C47DA772101968F00B98CB3 /* View */,
+				2C47DA712101968F00B98CB3 /* ViewModel */,
 				2C47D9FF2101920A00B98CB3 /* AppDelegate.h */,
 				2C47DA002101920A00B98CB3 /* AppDelegate.m */,
 				2C47DA3D2101923E00B98CB3 /* Main.storyboard */,
@@ -116,86 +116,79 @@
 			path = SQEasyTableView;
 			sourceTree = "<group>";
 		};
-		2C47DA3F2101940900B98CB3 /* Base */ = {
+		2C47DA712101968F00B98CB3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				2C47DA402101940900B98CB3 /* SQBaseCollectionViewController.h */,
-				2C47DA412101940900B98CB3 /* SQBaseCell.h */,
-				2C47DA422101940900B98CB3 /* SQBaseTableViewController.m */,
-				2C47DA432101940900B98CB3 /* SQBaseCollectionViewController.m */,
-				2C47DA442101940900B98CB3 /* SQBaseTableViewController.h */,
-				2C47DA452101940900B98CB3 /* SQBaseCell.m */,
+				2C47DA722101968F00B98CB3 /* SQViewModel.h */,
+				2C47DA732101968F00B98CB3 /* SQViewModel.m */,
 			);
-			name = Base;
-			path = "../../../../TableVIewDemo-master/TableViewDemo/Base";
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		2C47DA462101940900B98CB3 /* ViewModel */ = {
+		2C47DA742101968F00B98CB3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				2C47DA472101940900B98CB3 /* SQViewModel.h */,
-				2C47DA482101940900B98CB3 /* SQViewModel.m */,
+				2C47DA752101968F00B98CB3 /* UIResponder+Extension.h */,
+				2C47DA762101968F00B98CB3 /* UIResponder+Extension.m */,
 			);
-			name = ViewModel;
-			path = "../../../../TableVIewDemo-master/TableViewDemo/ViewModel";
+			path = Category;
 			sourceTree = "<group>";
 		};
-		2C47DA492101940900B98CB3 /* Category */ = {
+		2C47DA772101968F00B98CB3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2C47DA4A2101940900B98CB3 /* UIResponder+Extension.h */,
-				2C47DA4B2101940900B98CB3 /* UIResponder+Extension.m */,
+				2C47DA782101968F00B98CB3 /* SQHeaderCell.h */,
+				2C47DA792101968F00B98CB3 /* SQItemCell.m */,
+				2C47DA7A2101968F00B98CB3 /* SQItemCell.h */,
+				2C47DA7B2101968F00B98CB3 /* SQHeaderCell.m */,
 			);
-			name = Category;
-			path = "../../../../TableVIewDemo-master/TableViewDemo/Category";
+			path = View;
 			sourceTree = "<group>";
 		};
-		2C47DA4C2101940900B98CB3 /* View */ = {
+		2C47DA7C2101968F00B98CB3 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				2C47DA4D2101940900B98CB3 /* SQHeaderCell.h */,
-				2C47DA4E2101940900B98CB3 /* SQItemCell.m */,
-				2C47DA4F2101940900B98CB3 /* SQItemCell.h */,
-				2C47DA502101940900B98CB3 /* SQHeaderCell.m */,
+				2C47DA7D2101968F00B98CB3 /* SQBaseCollectionViewController.h */,
+				2C47DA7E2101968F00B98CB3 /* SQBaseCell.h */,
+				2C47DA7F2101968F00B98CB3 /* SQBaseTableViewController.m */,
+				2C47DA802101968F00B98CB3 /* SQBaseCollectionViewController.m */,
+				2C47DA812101968F00B98CB3 /* SQBaseTableViewController.h */,
+				2C47DA822101968F00B98CB3 /* SQBaseCell.m */,
 			);
-			name = View;
-			path = "../../../../TableVIewDemo-master/TableViewDemo/View";
+			path = Base;
 			sourceTree = "<group>";
 		};
-		2C47DA512101940900B98CB3 /* Controller */ = {
+		2C47DA832101968F00B98CB3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2C47DA532101940900B98CB3 /* ViewController.h */,
-				2C47DA522101940900B98CB3 /* ViewController.m */,
+				2C47DA842101968F00B98CB3 /* SQItemModel.m */,
+				2C47DA852101968F00B98CB3 /* SQHeaderModel.m */,
+				2C47DA862101968F00B98CB3 /* SQHeaderModel.h */,
+				2C47DA872101968F00B98CB3 /* SQItemModel.h */,
 			);
-			name = Controller;
-			path = "../../../../TableVIewDemo-master/TableViewDemo/Controller";
+			path = Model;
 			sourceTree = "<group>";
 		};
-		2C47DA542101940900B98CB3 /* Model */ = {
+		2C47DA882101969000B98CB3 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				2C47DA552101940900B98CB3 /* SQItemModel.m */,
-				2C47DA562101940900B98CB3 /* SQHeaderModel.m */,
-				2C47DA572101940900B98CB3 /* SQHeaderModel.h */,
-				2C47DA582101940900B98CB3 /* SQItemModel.h */,
+				2C47DA892101969000B98CB3 /* SQModelProtocol.h */,
+				2C47DA8A2101969000B98CB3 /* SQRefreshProtocol.h */,
+				2C47DA8B2101969000B98CB3 /* SQViewProtocol.h */,
+				2C47DA8C2101969000B98CB3 /* SQLoadMoreProtocol.h */,
+				2C47DA8D2101969000B98CB3 /* SQEventProtocol.h */,
+				2C47DA8E2101969000B98CB3 /* SQViewModelProtocol.h */,
 			);
-			name = Model;
-			path = "../../../../TableVIewDemo-master/TableViewDemo/Model";
+			path = Protocol;
 			sourceTree = "<group>";
 		};
-		2C47DA592101940A00B98CB3 /* Protocol */ = {
+		2C47DA8F2101969000B98CB3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2C47DA5A2101940A00B98CB3 /* SQModelProtocol.h */,
-				2C47DA5B2101940A00B98CB3 /* SQRefreshProtocol.h */,
-				2C47DA5C2101940A00B98CB3 /* SQViewProtocol.h */,
-				2C47DA5D2101940A00B98CB3 /* SQLoadMoreProtocol.h */,
-				2C47DA5E2101940A00B98CB3 /* SQEventProtocol.h */,
-				2C47DA5F2101940A00B98CB3 /* SQViewModelProtocol.h */,
+				2C47DA982101969000B98CB3 /* ViewController.h */,
+				2C47DA902101969000B98CB3 /* ViewController.m */,
 			);
-			name = Protocol;
-			path = "../../../../TableVIewDemo-master/TableViewDemo/Protocol";
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		A63BDB5C0DA599D8F200E844 /* Pods */ = {
@@ -326,18 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C47DA692101940A00B98CB3 /* SQHeaderModel.m in Sources */,
-				2C47DA632101940A00B98CB3 /* SQViewModel.m in Sources */,
-				2C47DA622101940A00B98CB3 /* SQBaseCell.m in Sources */,
-				2C47DA682101940A00B98CB3 /* SQItemModel.m in Sources */,
-				2C47DA652101940A00B98CB3 /* SQItemCell.m in Sources */,
+				2C47DA9F2101969000B98CB3 /* SQBaseCell.m in Sources */,
+				2C47DA992101969000B98CB3 /* SQViewModel.m in Sources */,
 				2C47DA0F2101920B00B98CB3 /* main.m in Sources */,
-				2C47DA672101940A00B98CB3 /* ViewController.m in Sources */,
+				2C47DA9E2101969000B98CB3 /* SQBaseCollectionViewController.m in Sources */,
+				2C47DA9C2101969000B98CB3 /* SQHeaderCell.m in Sources */,
+				2C47DA9A2101969000B98CB3 /* UIResponder+Extension.m in Sources */,
+				2C47DAA22101969000B98CB3 /* ViewController.m in Sources */,
+				2C47DAA02101969000B98CB3 /* SQItemModel.m in Sources */,
+				2C47DAA12101969000B98CB3 /* SQHeaderModel.m in Sources */,
+				2C47DA9D2101969000B98CB3 /* SQBaseTableViewController.m in Sources */,
 				2C47DA012101920A00B98CB3 /* AppDelegate.m in Sources */,
-				2C47DA662101940A00B98CB3 /* SQHeaderCell.m in Sources */,
-				2C47DA612101940A00B98CB3 /* SQBaseCollectionViewController.m in Sources */,
-				2C47DA642101940A00B98CB3 /* UIResponder+Extension.m in Sources */,
-				2C47DA602101940A00B98CB3 /* SQBaseTableViewController.m in Sources */,
+				2C47DA9B2101969000B98CB3 /* SQItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

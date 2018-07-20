@@ -12,15 +12,10 @@ DEPENDENCIES:
   - MJRefresh
   - ReactiveCocoa (~> 2.5)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - MJRefresh
-    - ReactiveCocoa
-
 SPEC CHECKSUMS:
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
 PODFILE CHECKSUM: 1b8670e1b68cef11a82e3310361c5c73cca6baf8
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.4.0

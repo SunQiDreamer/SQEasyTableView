@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C47DA012101920A00B98CB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA002101920A00B98CB3 /* AppDelegate.m */; };
+		2C47DA092101920B00B98CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C47DA082101920B00B98CB3 /* Assets.xcassets */; };
+		2C47DA0C2101920B00B98CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C47DA0A2101920B00B98CB3 /* LaunchScreen.storyboard */; };
+		2C47DA0F2101920B00B98CB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA0E2101920B00B98CB3 /* main.m */; };
+		2C47DA3E2101923E00B98CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C47DA3D2101923E00B98CB3 /* Main.storyboard */; };
+		2C47DA602101940A00B98CB3 /* SQBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA422101940900B98CB3 /* SQBaseTableViewController.m */; };
+		2C47DA612101940A00B98CB3 /* SQBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA432101940900B98CB3 /* SQBaseCollectionViewController.m */; };
+		2C47DA622101940A00B98CB3 /* SQBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA452101940900B98CB3 /* SQBaseCell.m */; };
+		2C47DA632101940A00B98CB3 /* SQViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA482101940900B98CB3 /* SQViewModel.m */; };
+		2C47DA642101940A00B98CB3 /* UIResponder+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA4B2101940900B98CB3 /* UIResponder+Extension.m */; };
+		2C47DA652101940A00B98CB3 /* SQItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA4E2101940900B98CB3 /* SQItemCell.m */; };
+		2C47DA662101940A00B98CB3 /* SQHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA502101940900B98CB3 /* SQHeaderCell.m */; };
+		2C47DA672101940A00B98CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA522101940900B98CB3 /* ViewController.m */; };
+		2C47DA682101940A00B98CB3 /* SQItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA552101940900B98CB3 /* SQItemModel.m */; };
+		2C47DA692101940A00B98CB3 /* SQHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C47DA562101940900B98CB3 /* SQHeaderModel.m */; };
+		31F772E12F936DFB56B7C19C /* libPods-SQEasyTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BACD1FD127188C5C673A8AE4 /* libPods-SQEasyTableView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B75BF7000E5C1C198A9114 /* Pods-SQEasyTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQEasyTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQEasyTableView/Pods-SQEasyTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		2C47D9FC2101920A00B98CB3 /* SQEasyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQEasyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C47D9FF2101920A00B98CB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C47DA002101920A00B98CB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C47DA082101920B00B98CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C47DA0B2101920B00B98CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C47DA0D2101920B00B98CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C47DA0E2101920B00B98CB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C47DA3D2101923E00B98CB3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2C47DA402101940900B98CB3 /* SQBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseCollectionViewController.h; sourceTree = "<group>"; };
+		2C47DA412101940900B98CB3 /* SQBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseCell.h; sourceTree = "<group>"; };
+		2C47DA422101940900B98CB3 /* SQBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseTableViewController.m; sourceTree = "<group>"; };
+		2C47DA432101940900B98CB3 /* SQBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseCollectionViewController.m; sourceTree = "<group>"; };
+		2C47DA442101940900B98CB3 /* SQBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseTableViewController.h; sourceTree = "<group>"; };
+		2C47DA452101940900B98CB3 /* SQBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseCell.m; sourceTree = "<group>"; };
+		2C47DA472101940900B98CB3 /* SQViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQViewModel.h; sourceTree = "<group>"; };
+		2C47DA482101940900B98CB3 /* SQViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQViewModel.m; sourceTree = "<group>"; };
+		2C47DA4A2101940900B98CB3 /* UIResponder+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Extension.h"; sourceTree = "<group>"; };
+		2C47DA4B2101940900B98CB3 /* UIResponder+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Extension.m"; sourceTree = "<group>"; };
+		2C47DA4D2101940900B98CB3 /* SQHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHeaderCell.h; sourceTree = "<group>"; };
+		2C47DA4E2101940900B98CB3 /* SQItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQItemCell.m; sourceTree = "<group>"; };
+		2C47DA4F2101940900B98CB3 /* SQItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQItemCell.h; sourceTree = "<group>"; };
+		2C47DA502101940900B98CB3 /* SQHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHeaderCell.m; sourceTree = "<group>"; };
+		2C47DA522101940900B98CB3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C47DA532101940900B98CB3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C47DA552101940900B98CB3 /* SQItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQItemModel.m; sourceTree = "<group>"; };
+		2C47DA562101940900B98CB3 /* SQHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHeaderModel.m; sourceTree = "<group>"; };
+		2C47DA572101940900B98CB3 /* SQHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHeaderModel.h; sourceTree = "<group>"; };
+		2C47DA582101940900B98CB3 /* SQItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQItemModel.h; sourceTree = "<group>"; };
+		2C47DA5A2101940A00B98CB3 /* SQModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQModelProtocol.h; sourceTree = "<group>"; };
+		2C47DA5B2101940A00B98CB3 /* SQRefreshProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRefreshProtocol.h; sourceTree = "<group>"; };
+		2C47DA5C2101940A00B98CB3 /* SQViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQViewProtocol.h; sourceTree = "<group>"; };
+		2C47DA5D2101940A00B98CB3 /* SQLoadMoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLoadMoreProtocol.h; sourceTree = "<group>"; };
+		2C47DA5E2101940A00B98CB3 /* SQEventProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQEventProtocol.h; sourceTree = "<group>"; };
+		2C47DA5F2101940A00B98CB3 /* SQViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQViewModelProtocol.h; sourceTree = "<group>"; };
+		400426739CE46CED53900F39 /* Pods-SQEasyTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQEasyTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQEasyTableView/Pods-SQEasyTableView.release.xcconfig"; sourceTree = "<group>"; };
+		BACD1FD127188C5C673A8AE4 /* libPods-SQEasyTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQEasyTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C47D9F92101920A00B98CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F772E12F936DFB56B7C19C /* libPods-SQEasyTableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C47D9F32101920A00B98CB3 = {
+			isa = PBXGroup;
+			children = (
+				2C47D9FE2101920A00B98CB3 /* SQEasyTableView */,
+				2C47D9FD2101920A00B98CB3 /* Products */,
+				A63BDB5C0DA599D8F200E844 /* Pods */,
+				D7FD72AED8FF4C7239A1F95D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C47D9FD2101920A00B98CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C47D9FC2101920A00B98CB3 /* SQEasyTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C47D9FE2101920A00B98CB3 /* SQEasyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2C47DA3F2101940900B98CB3 /* Base */,
+				2C47DA492101940900B98CB3 /* Category */,
+				2C47DA512101940900B98CB3 /* Controller */,
+				2C47DA542101940900B98CB3 /* Model */,
+				2C47DA592101940A00B98CB3 /* Protocol */,
+				2C47DA4C2101940900B98CB3 /* View */,
+				2C47DA462101940900B98CB3 /* ViewModel */,
+				2C47D9FF2101920A00B98CB3 /* AppDelegate.h */,
+				2C47DA002101920A00B98CB3 /* AppDelegate.m */,
+				2C47DA3D2101923E00B98CB3 /* Main.storyboard */,
+				2C47DA082101920B00B98CB3 /* Assets.xcassets */,
+				2C47DA0A2101920B00B98CB3 /* LaunchScreen.storyboard */,
+				2C47DA0D2101920B00B98CB3 /* Info.plist */,
+				2C47DA0E2101920B00B98CB3 /* main.m */,
+			);
+			path = SQEasyTableView;
+			sourceTree = "<group>";
+		};
+		2C47DA3F2101940900B98CB3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2C47DA402101940900B98CB3 /* SQBaseCollectionViewController.h */,
+				2C47DA412101940900B98CB3 /* SQBaseCell.h */,
+				2C47DA422101940900B98CB3 /* SQBaseTableViewController.m */,
+				2C47DA432101940900B98CB3 /* SQBaseCollectionViewController.m */,
+				2C47DA442101940900B98CB3 /* SQBaseTableViewController.h */,
+				2C47DA452101940900B98CB3 /* SQBaseCell.m */,
+			);
+			name = Base;
+			path = "../../../../TableVIewDemo-master/TableViewDemo/Base";
+			sourceTree = "<group>";
+		};
+		2C47DA462101940900B98CB3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C47DA472101940900B98CB3 /* SQViewModel.h */,
+				2C47DA482101940900B98CB3 /* SQViewModel.m */,
+			);
+			name = ViewModel;
+			path = "../../../../TableVIewDemo-master/TableViewDemo/ViewModel";
+			sourceTree = "<group>";
+		};
+		2C47DA492101940900B98CB3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2C47DA4A2101940900B98CB3 /* UIResponder+Extension.h */,
+				2C47DA4B2101940900B98CB3 /* UIResponder+Extension.m */,
+			);
+			name = Category;
+			path = "../../../../TableVIewDemo-master/TableViewDemo/Category";
+			sourceTree = "<group>";
+		};
+		2C47DA4C2101940900B98CB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C47DA4D2101940900B98CB3 /* SQHeaderCell.h */,
+				2C47DA4E2101940900B98CB3 /* SQItemCell.m */,
+				2C47DA4F2101940900B98CB3 /* SQItemCell.h */,
+				2C47DA502101940900B98CB3 /* SQHeaderCell.m */,
+			);
+			name = View;
+			path = "../../../../TableVIewDemo-master/TableViewDemo/View";
+			sourceTree = "<group>";
+		};
+		2C47DA512101940900B98CB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C47DA532101940900B98CB3 /* ViewController.h */,
+				2C47DA522101940900B98CB3 /* ViewController.m */,
+			);
+			name = Controller;
+			path = "../../../../TableVIewDemo-master/TableViewDemo/Controller";
+			sourceTree = "<group>";
+		};
+		2C47DA542101940900B98CB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C47DA552101940900B98CB3 /* SQItemModel.m */,
+				2C47DA562101940900B98CB3 /* SQHeaderModel.m */,
+				2C47DA572101940900B98CB3 /* SQHeaderModel.h */,
+				2C47DA582101940900B98CB3 /* SQItemModel.h */,
+			);
+			name = Model;
+			path = "../../../../TableVIewDemo-master/TableViewDemo/Model";
+			sourceTree = "<group>";
+		};
+		2C47DA592101940A00B98CB3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2C47DA5A2101940A00B98CB3 /* SQModelProtocol.h */,
+				2C47DA5B2101940A00B98CB3 /* SQRefreshProtocol.h */,
+				2C47DA5C2101940A00B98CB3 /* SQViewProtocol.h */,
+				2C47DA5D2101940A00B98CB3 /* SQLoadMoreProtocol.h */,
+				2C47DA5E2101940A00B98CB3 /* SQEventProtocol.h */,
+				2C47DA5F2101940A00B98CB3 /* SQViewModelProtocol.h */,
+			);
+			name = Protocol;
+			path = "../../../../TableVIewDemo-master/TableViewDemo/Protocol";
+			sourceTree = "<group>";
+		};
+		A63BDB5C0DA599D8F200E844 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18B75BF7000E5C1C198A9114 /* Pods-SQEasyTableView.debug.xcconfig */,
+				400426739CE46CED53900F39 /* Pods-SQEasyTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7FD72AED8FF4C7239A1F95D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BACD1FD127188C5C673A8AE4 /* libPods-SQEasyTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C47D9FB2101920A00B98CB3 /* SQEasyTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C47DA122101920B00B98CB3 /* Build configuration list for PBXNativeTarget "SQEasyTableView" */;
+			buildPhases = (
+				2945C171AD5F8494EAD358DC /* [CP] Check Pods Manifest.lock */,
+				2C47D9F82101920A00B98CB3 /* Sources */,
+				2C47D9F92101920A00B98CB3 /* Frameworks */,
+				2C47D9FA2101920A00B98CB3 /* Resources */,
+				52272B1E963958BAB5C9BF71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQEasyTableView;
+			productName = SQEasyTableView;
+			productReference = 2C47D9FC2101920A00B98CB3 /* SQEasyTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C47D9F42101920A00B98CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = sunqi;
+				TargetAttributes = {
+					2C47D9FB2101920A00B98CB3 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 2C47D9F72101920A00B98CB3 /* Build configuration list for PBXProject "SQEasyTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C47D9F32101920A00B98CB3;
+			productRefGroup = 2C47D9FD2101920A00B98CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C47D9FB2101920A00B98CB3 /* SQEasyTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C47D9FA2101920A00B98CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C47DA3E2101923E00B98CB3 /* Main.storyboard in Resources */,
+				2C47DA0C2101920B00B98CB3 /* LaunchScreen.storyboard in Resources */,
+				2C47DA092101920B00B98CB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2945C171AD5F8494EAD358DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQEasyTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52272B1E963958BAB5C9BF71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SQEasyTableView/Pods-SQEasyTableView-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQEasyTableView/Pods-SQEasyTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C47D9F82101920A00B98CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C47DA692101940A00B98CB3 /* SQHeaderModel.m in Sources */,
+				2C47DA632101940A00B98CB3 /* SQViewModel.m in Sources */,
+				2C47DA622101940A00B98CB3 /* SQBaseCell.m in Sources */,
+				2C47DA682101940A00B98CB3 /* SQItemModel.m in Sources */,
+				2C47DA652101940A00B98CB3 /* SQItemCell.m in Sources */,
+				2C47DA0F2101920B00B98CB3 /* main.m in Sources */,
+				2C47DA672101940A00B98CB3 /* ViewController.m in Sources */,
+				2C47DA012101920A00B98CB3 /* AppDelegate.m in Sources */,
+				2C47DA662101940A00B98CB3 /* SQHeaderCell.m in Sources */,
+				2C47DA612101940A00B98CB3 /* SQBaseCollectionViewController.m in Sources */,
+				2C47DA642101940A00B98CB3 /* UIResponder+Extension.m in Sources */,
+				2C47DA602101940A00B98CB3 /* SQBaseTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C47DA0A2101920B00B98CB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C47DA0B2101920B00B98CB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C47DA102101920B00B98CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C47DA112101920B00B98CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C47DA132101920B00B98CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B75BF7000E5C1C198A9114 /* Pods-SQEasyTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQEasyTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunqi.SQEasyTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C47DA142101920B00B98CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400426739CE46CED53900F39 /* Pods-SQEasyTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQEasyTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunqi.SQEasyTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C47D9F72101920A00B98CB3 /* Build configuration list for PBXProject "SQEasyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C47DA102101920B00B98CB3 /* Debug */,
+				2C47DA112101920B00B98CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C47DA122101920B00B98CB3 /* Build configuration list for PBXNativeTarget "SQEasyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C47DA132101920B00B98CB3 /* Debug */,
+				2C47DA142101920B00B98CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C47D9F42101920A00B98CB3 /* Project object */;
+}
